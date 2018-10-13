@@ -40,3 +40,9 @@ masternodeprivkey=${mnprivkey}
 addnode=108.61.85.190
 addnode=167.99.182.253
 EOT
+
+# Download the Linux Daemon
+wget https://github.com/AbacusCoin/Abacus/releases/download/v1.0.0.1/ABA-linux.tar.gz
+tar -xvf ABA-linux.tar.gz
+echo "Please update MN genkey in ~/.aba/aba.conf"
+echo "Then run ./abad"
