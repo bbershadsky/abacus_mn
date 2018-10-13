@@ -42,6 +42,10 @@ addnode=167.99.182.253
 addnode=45.63.89.146
 addnode=67.205.132.182
 addnode=45.76.226.246
+addnode=45.76.167.200
+addnode=207.246.85.20
+addnode=45.76.7.188
+
 EOT
 
 # Download the Linux Daemon
