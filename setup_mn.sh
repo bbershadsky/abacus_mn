@@ -17,7 +17,7 @@ myip="$(dig +short myip.opendns.com @resolver1.opendns.com)"
 echo "ABACUS HOST WAN/Public IP: ${myip}"
 
 # Grab the MN Private key from keyfile (WIP)
-mnprivkey=883M14dwBbqry1SjkeYgMw8LDrnsopzP8CDwCaF2UQWYMpaydU5
+mnprivkey=<INSERT_ABA_MN_KEY_HERE>
 
 # Generate the unique config
 mkdir -p ~/.aba
@@ -39,10 +39,13 @@ externalip=${myip}:3355
 masternodeprivkey=${mnprivkey}
 addnode=108.61.85.190
 addnode=167.99.182.253
+addnode=45.63.89.146
+addnode=67.205.132.182
 EOT
 
 # Download the Linux Daemon
 wget https://github.com/AbacusCoin/Abacus/releases/download/v1.0.0.1/ABA-linux.tar.gz
 tar -xvf ABA-linux.tar.gz
 echo "Please update MN genkey in ~/.aba/aba.conf"
-echo "Then run ./abad"
+nano ~/.aba/aba.conf
+./abad
