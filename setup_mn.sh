@@ -17,7 +17,7 @@ myip="$(dig +short myip.opendns.com @resolver1.opendns.com)"
 echo "ABACUS HOST WAN/Public IP: ${myip}"
 
 # Grab the MN Private key from keyfile (WIP)
-mnprivkey=<INSERT_ABA_MN_KEY_HERE>
+mnprivkey=INSERT_ABA_MN_KEY_HERE
 
 # Generate the unique config
 mkdir -p ~/.aba
