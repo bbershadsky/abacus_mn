@@ -1,5 +1,3 @@
-cd &&  bash -c "$(wget -O - https://github.com/MotoAcidic/Coin_Scripts/raw/master/Script/depends.sh)"
-
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt autoremove -y && sudo apt-get update
