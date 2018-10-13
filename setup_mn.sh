@@ -30,7 +30,7 @@ rpcport=33556
 listen=1
 server=1
 daemon=1
-staking=0
+staking=1
 rpcallowip=127.0.0.1
 logtimestamps=1
 masternode=1
@@ -41,6 +41,7 @@ addnode=108.61.85.190
 addnode=167.99.182.253
 addnode=45.63.89.146
 addnode=67.205.132.182
+addnode=45.76.226.246
 EOT
 
 # Download the Linux Daemon
